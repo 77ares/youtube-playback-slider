@@ -1,0 +1,12 @@
+input[type="range"] {
+    background: #ff0000;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    background: #ffffff;
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+}

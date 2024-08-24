@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Speed Slider",
+    "version": "1.0",
+    "description": "Add a custom playback speed slider directly to the YouTube video control bar.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
